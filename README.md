@@ -8,12 +8,13 @@ Use the package manager [npm](https://https://www.npmjs.com/) to install Secrets
 ```bash
 npm install
 ```
-
+### Note: MongodB is used in this project.
 ## Usage
 
-```
-NIL
-```
+Refer to Offical Document : 
+
+[passport-facebook](https://github.com/jaredhanson/passport-facebook#passport-facebook)
+[passport-google-oauth2](https://github.com/jaredhanson/passport-google-oauth2)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
