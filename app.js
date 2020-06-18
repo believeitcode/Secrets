@@ -98,7 +98,7 @@ passport.use(new FacebookStrategy({
 app.get("/", function (req, res) {
   res.render("home");
 });
-//Request Authentication Routes (Facebook)
+//Requests Authentication Routes (Facebook)
 app.get('/auth/facebook',
   passport.authenticate('facebook'));
 
@@ -110,7 +110,7 @@ app.get('/auth/facebook/secrets',
   });
 
 
-//Request Authentication Routes (Google)
+//Requests Authentication Routes (Google)
 app.get('/auth/google',
   passport.authenticate('google', { scope: ['profile'] }));
 
@@ -182,6 +182,7 @@ User.register({username: req.body.username}, req.body.password, function(err, us
         console.log(err);
         res.redirect("/register");
       } else {
+        //Tell browser to hold on cookie , which user authorize to view page that require autentication
         passport.authenticate("local")(req, res, function(){
             res.redirect("/secrets");
         });
