@@ -1,5 +1,5 @@
 # Secrets
-A Repository Project to implement OAuth 2.0 For Google And Facebook sign-in
+A Repository Project to implement OAuth 2.0 For Google And Facebook Sign-in using Passport.js
 
 ## Installation
 
