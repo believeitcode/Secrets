@@ -2,7 +2,7 @@
 A Repository Project to implement OAuth 2.0 For Google And Facebook Sign-in using Passport.js
 
 ## Installation
-
+Setting up Developers Account - Refer Offical Document  
 Use the package manager [npm](https://https://www.npmjs.com/) to install Secrets.
 
 ```bash
@@ -12,7 +12,6 @@ npm install
 ## Usage
 
 Refer to Offical Document : 
-
 [passport-facebook](https://github.com/jaredhanson/passport-facebook#passport-facebook)
 [passport-google-oauth2](https://github.com/jaredhanson/passport-google-oauth2)
 
